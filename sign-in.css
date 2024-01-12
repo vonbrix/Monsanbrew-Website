@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+:root{
+    --main-color:#d3ad7f;
+    --black: #545455; 
+    --bg:#010103;
+    --border:.1rem solid rgba(255,255,255,.3);
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: var;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+.container img{
+    height: 15rem;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 70px;
+    background: #fff;
+    min-height: 100vh;
+    background: url(signin1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container form{
+    width: 600px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.container form .title{
+    font-size: 17px;
+    padding-bottom: 15px;
+    color: #010103;
+}
+
+.container form .input-box{
+    padding: 30px;
+    background: #fff;
+}
+
+.container form .input-box .input{
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    background: #d3ad7f;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    border: #545455;
+}
+
+.container form .input-box .input input{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    text-transform: none;
+}
+
+.container form .input-box .input span{
+    color: #010103;
+    padding-right: 5px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.container form .checkbox{
+    text-align: left;
+    padding: 10px 0;   
+}
+
+.container form .checkbox label{
+    font-size: 17px;
+    color: #010103;
+    cursor: pointer;
+}
+
+.container form a{
+    padding: 10px 40px;
+    margin: 60px;
+    font-size: 17px;
+    color: #fff;
+    background-color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s linear; 
+}
+
+.container form a:hover{
+    letter-spacing: 2px;
+    background-color: #d3ad7f;
+}
